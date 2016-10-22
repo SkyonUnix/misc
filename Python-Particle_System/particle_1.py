@@ -1,13 +1,15 @@
 import math
-import kivy
 
 from kivy.app import App
-from kivy.uix.label import Label
+from kivy.uix.widget import Widget
 from kivy.graphics import *
 
+class pixel(Widget):
+    pass
 
 class particle(App):
     def build(self):
+        return pixel()
         
 
 if __name__ == '__main__':
